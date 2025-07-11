@@ -32,4 +32,27 @@ This project is a **responsive ToDo list application** built with **React**, **T
 - **React** (Functional components and Hooks)
   - `useState` for state management.
   - `useEffect` for reading data from localStorage on startup.
-- **Tailwind CSS** for styli
+- **Tailwind CSS** for styling.
+- **uuid** for generating unique IDs.
+- **localStorage** for data persistence.
+
+---
+
+## 📚 What I Learned
+
+- **React Hooks**
+  - Managing complex state (`list` array with objects).
+  - Updating specific properties (like `isCompleted`) immutably.
+  - Using `useEffect` to initialize state from localStorage.
+
+- **Tailwind CSS**
+  - Applying responsive styles.
+  - Utility-first CSS for rapid UI building.
+  - Custom colors and spacing.
+
+- **localStorage**
+  - Saving and retrieving JSON data.
+  - Ensuring state stays in sync with storage.
+
+- **Building CRUD Applications**
+  - Add, edit, delete, and update functionality in a clean UI.
